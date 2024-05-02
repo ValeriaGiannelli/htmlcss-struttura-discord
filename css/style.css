@@ -142,11 +142,18 @@ div{
 
     /* regole informazioni finali */
     .final-info{
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
         /* DEBUG */
-        height: 900px;
         background-color: rgb(147, 144, 144);
     }
 
     .final-info div{
-        height: 80%;
+        margin: 40px 0;
+
+        /* DEBUG */
+        background-color: green;
     }
+
