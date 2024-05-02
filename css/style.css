@@ -1,0 +1,19 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole header */
+.header-nav{
+    /* DEBUG */
+    background-color: aquamarine;
+    height: 50px;
+}
+
+.header-description{
+    /* DEBUG */
+    background-color: blue;
+    height: 350px;
+}
