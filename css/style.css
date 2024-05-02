@@ -6,14 +6,24 @@
 }
 
 /* regole header */
-.header-nav{
-    /* DEBUG */
-    background-color: aquamarine;
-    height: 50px;
-}
 
-.header-description{
-    /* DEBUG */
-    background-color: blue;
-    height: 350px;
-}
+    /* regole menu navigazione */
+    .header-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* DEBUG */
+        background-color: aquamarine;
+        height: 50px;
+    }
+
+    header nav ul{
+        display: flex;
+    }
+
+    /* regole descrizione */
+    .header-description{
+        /* DEBUG */
+        background-color: blue;
+        height: 350px;
+    }
