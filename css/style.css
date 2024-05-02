@@ -83,13 +83,32 @@ div{
 /* regole main */
 
     /* regole file dispari */
+
+    /* sfondo */
     .odd{
         height: 450px;
+    }
 
-        /* DEBUG */
-        background-color: beige;
+    /* DEBUG */
+    .container-height{
+        height: 80%;
     }
 
     .imagine{
-        width: 70%;
+        width: 60%;
+        height: 100%;
+
+        /* DEBUG */
+        background-color: rgb(46, 111, 181);
     }
+
+    .text{
+        width: 40%;
+        height: 100%;
+
+        /* DEBUG */
+        background-color: rgb(255, 196, 207);
+    }
+
+    /* regole file pari */
+    
