@@ -28,13 +28,14 @@ div{
 
     /* parte di sfondo */
     .header-nav{
+        height: 50px;
         /* DEBUG */
         background-color: aquamarine;
-        height: 50px;
     }
 
     /* container del logo - link - login */
     .nav-disposition{
+        display: flex;
         justify-content: space-between;
     }
 
@@ -66,15 +67,18 @@ div{
 
     /* parte di sfondo */
     .header-description{
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
         /* DEBUG */
         background-color: blue;
-        height: 350px;
     }
     
     /* parte di posizione del testo */
     .header-description div{
+        margin: 40px 0;
         width: 50%;
-        height: 80%;
 
         /* DEBUG */
         background-color: plum;
@@ -87,6 +91,14 @@ div{
     /* sfondo */
     .odd{
         height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .odd div{
+        margin: 40px 0;
+        min-height: 200px;
     }
 
     /* DEBUG */
@@ -113,6 +125,9 @@ div{
     /* regole file pari */
     .even{
         height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
 
         /* DEBUG */
         background-color: rgb(147, 144, 144);
@@ -120,4 +135,18 @@ div{
 
     .even div{
         flex-direction: row-reverse;
+        margin: 40px 0;
+        min-height: 200px;
+    }
+
+
+    /* regole informazioni finali */
+    .final-info{
+        /* DEBUG */
+        height: 900px;
+        background-color: rgb(147, 144, 144);
+    }
+
+    .final-info div{
+        height: 80%;
     }
