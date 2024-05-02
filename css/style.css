@@ -159,57 +159,32 @@ div{
 
 /* regole footer */
 
-footer.container-flex{
+footer{
     background-color: #23272a;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-}
-
-footer div{
-    margin: 40px 0;
-    background-color: white;
-}
-
-
-/*
-footer>div{
-    width: 70%;
-    margin: 0 auto;
-
-
-    height: 20px;
-    background-color: white;
-    
-}
-
-.link-utili{
-    height: 80%;
-    margin-bottom: 40px;
-    justify-content: start;
-}
-
-.social{
-    width: calc((100% / 6)*2);
-    height: 100%;
-
-
-    background-color: rosybrown;
+    height: 400PX;
 }
 
 .info-generali{
+    height: 80%;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.container-flex-footer{
+    display: flex;
+}
+
+.social{
+    width: calc(100% / 3);
+
+    /* DEBUG */
+    background-color: rosybrown;
+}
+
+.link-utili{
     width: calc(100% / 6);
-    height: 100%;
 
-
-    background-color: aquamarine;
+    /* DEBUG */
+    background-color: rgb(65, 165, 165);
 }
-
-.end-footer{
-    width: 50%;
-}
-
-.registration{
-    text-align: end;
-} */
