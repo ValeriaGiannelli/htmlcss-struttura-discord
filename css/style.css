@@ -157,3 +157,30 @@ div{
         background-color: green;
     }
 
+/* regole footer */
+
+footer{
+    background-color: #23272a;
+    height: 400px;
+}
+
+footer>div{
+    width: 70%;
+    margin: 0 auto;
+
+    height: 20px;
+    background-color: white;
+    
+}
+
+.social{
+    width: calc(100% / 3);
+}
+
+.end-footer{
+    width: 50%;
+}
+
+.registration{
+    text-align: end;
+}
