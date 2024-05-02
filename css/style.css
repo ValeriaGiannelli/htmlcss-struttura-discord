@@ -111,4 +111,13 @@ div{
     }
 
     /* regole file pari */
-    
+    .even{
+        height: 450px;
+
+        /* DEBUG */
+        background-color: rgb(147, 144, 144);
+    }
+
+    .even div{
+        flex-direction: row-reverse;
+    }
