@@ -5,9 +5,15 @@
     box-sizing: border-box;
 }
 
+div{
+    border: 1px dotted black;
+}
+
+
 /* regole header */
 
     /* regole menu navigazione */
+    
     .header-nav{
         display: flex;
         justify-content: center;
@@ -17,8 +23,37 @@
         height: 50px;
     }
 
+    .nav-dimension{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* dimensioni per logo e login */
+    .position{
+        width: 20%;
+    }
+
+    .login{
+        text-align: end;
+    }
+
+    /* dimensioni per la parte dei link */
+    nav{
+        width: 60%;
+    }
+
+    /* impostazione dei link */
     header nav ul{
         display: flex;
+        list-style-type: none;
+        justify-content: center;
+        gap:10px;
+    }
+
+    a{
+        text-decoration: none;
     }
 
     /* regole descrizione */
