@@ -90,11 +90,6 @@ div{
 
     /* sfondo */
     .odd{
-<<<<<<< HEAD
-=======
-        display: flex;
-        justify-content: center;
->>>>>>> 0fbb667b57d2fd96434496ec6b36aa3bf53f43fe
         align-items: stretch;
 
         /* DEBUG */
@@ -129,12 +124,6 @@ div{
 
     /* regole file pari */
     .even{
-<<<<<<< HEAD
-        height: 450px;
-=======
-        display: flex;
-        justify-content: center;
->>>>>>> 0fbb667b57d2fd96434496ec6b36aa3bf53f43fe
         align-items: stretch;
 
         /* DEBUG */
