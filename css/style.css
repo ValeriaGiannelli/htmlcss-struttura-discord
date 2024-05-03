@@ -90,10 +90,12 @@ div{
 
     /* sfondo */
     .odd{
-        height: 450px;
         display: flex;
         justify-content: center;
         align-items: stretch;
+
+        /* DEBUG */
+        height: 450px;
     }
 
     .odd div{
@@ -124,13 +126,13 @@ div{
 
     /* regole file pari */
     .even{
-        height: 450px;
         display: flex;
         justify-content: center;
         align-items: stretch;
 
         /* DEBUG */
         background-color: rgb(147, 144, 144);
+        height: 450px;
     }
 
     .even div{
@@ -142,11 +144,11 @@ div{
 
     /* regole informazioni finali */
     .final-info{
-        height: 700px;
         display: flex;
         justify-content: center;
         align-items: stretch;
         /* DEBUG */
+        height: 700px;
         background-color: rgb(147, 144, 144);
     }
 
