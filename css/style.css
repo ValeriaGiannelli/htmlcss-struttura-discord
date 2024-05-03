@@ -90,10 +90,10 @@ div{
 
     /* sfondo */
     .odd{
-        height: 450px;
-        display: flex;
-        justify-content: center;
         align-items: stretch;
+
+        /* DEBUG */
+        height: 450px;
     }
 
     .odd div{
@@ -125,8 +125,6 @@ div{
     /* regole file pari */
     .even{
         height: 450px;
-        display: flex;
-        justify-content: center;
         align-items: stretch;
 
         /* DEBUG */
@@ -134,7 +132,6 @@ div{
     }
 
     .even div{
-        flex-direction: row-reverse;
         margin: 40px 0;
         min-height: 200px;
     }
